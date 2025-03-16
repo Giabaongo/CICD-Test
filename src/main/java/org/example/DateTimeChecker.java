@@ -17,7 +17,7 @@ public class DateTimeChecker {
 
 
         if (thirtyOneDays.contains(month)) {
-            return 13;
+            return 31;
         } else if (thirtyDays.contains(month)) {
             return 30;
         } else if (month == 2) {
